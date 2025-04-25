@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Great+Vibes&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.menu{
+    background-color: #e4002b;
+    padding: 25px 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    z-index: 999;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 40px 10px 40px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: #e4002b;
+    padding: 65px;
+    color: white;
+    margin-top: 55vh;
+}
+
+.hero-content img {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.sobre-nosotros {
+    padding: 3em 2em;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin-top: 42vh;
+}
+
+.sobre-nosotros h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #c94b4b;
+}
+
+.sobre-nosotros p {
+    max-width: 700px;
+    margin: 0 auto 2em auto;
+    font-size: 1.1em;
+
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.galeria img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+h1{
+    font-family: "Great Vibes";
+    font-size: 65px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.pizza{
+    height: 250px;
+    
+}
+
+.capa-video{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.capa video video{
+    object-fit: cover;
+}
+
+.fond{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.wa{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: green;
+    font-size: 3rem;
+    padding: 5px;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.wa:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.botom:hover{
+    background-color: yellow;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    padding: 10px;
+    border-radius: 10px;
+}
